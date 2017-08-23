@@ -1,0 +1,193 @@
+body {
+   background-color: #f2f2f2
+}
+#logo {
+    height: 90px;
+    padding: 10px 10px 10px 0;
+}
+
+#logo > div {
+
+    height: 70px;
+
+}
+.navbar {
+    border-radius : 0px;
+}
+
+.navbar-default {
+    border-left : 0;
+    border-right : 0;
+}
+
+#content-body {
+    min-height : 900px;
+}
+
+#full-content {
+    line-height: 25px
+}
+#full-content img {
+    margin-top: 50px;
+}
+#left-content, #full-content {
+    height : 850px;
+    border : 1px solid #ccc;
+    padding : 20px 10px;
+}
+
+#form-content {
+    height : 700px;
+    border : 1px solid #ccc;
+    padding : 20px 10px;
+}   
+
+#form-content #form-title {
+    padding-bottom : 20px   ;
+}
+
+#left-content .action-btn a {
+    padding : 5px;
+}
+#left-content .action-btn a span {
+    color : gray;
+}
+#left-content .action-btn a span:hover {
+    color : #428bca
+}
+#left-content .panel {
+    margin-bottom : 10px;
+}
+
+#left-content .panel-body {
+    padding : 30px 0px;
+}
+
+#left-content .panel-body .right, #left-content .panel-body .left {
+    height : 200px;
+}
+
+#left-content .panel-body .right > div {
+    line-height: 25px;
+}
+
+#left-content #ingredient-text {
+    height: 90px;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+
+}
+
+#left-content #read-more {
+position: absolute;
+    bottom: 0;
+}
+
+#left-content #title, #left-content #ingredient, #full-content #ingredient {
+    font-weight : bold;
+}
+
+#left-content #ingredient {
+    margin-top: 10px;
+}
+
+#right-content #feature_btn {
+    width : 100%;
+    padding : 10px;
+    margin-top : 50px;
+     font-size : 20px;
+}
+
+#right-content .panel {
+    margin-top : 40px;
+}
+
+#right-content .panel-heading {
+    font-size : 20px;
+    font-weight: bold;
+}
+
+#right-content img {
+    padding : 20px 0px;
+}
+
+
+.footer-nav {
+    float :none;
+    display : inline-block;
+}
+
+.footer-nav li {
+    list-style: none;
+    display : inline-block;
+    padding : 10px;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color : #777;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    height: 100px;
+    bottom: 0;
+    border-top : solid 1px #e7e7e7;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.tse-scrollable {
+    width : 100%;
+    height : 800px;
+}
+
+#back-btn {
+    background-image:    url(../img/back.png);
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+    width : 40px;
+    height: 40px;
+    cursor : pointer;
+}
+
+#back-btn:hover {
+     background-image:  url(../img/back_hover.png);
+}
+
+#caterogy-buttons a {
+    width : 100%;
+    margin-top : 10px;
+}
+
+.required {
+    color : red;
+
+}
+
+.text-secondary {
+    color : #868e96;
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+}
+
+.image-container-details {
+    width : 250px;
+    height : 250px;
+    margin : auto;
+}
+.image-container > img, .image-container-details > img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
