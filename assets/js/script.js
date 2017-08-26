@@ -31,10 +31,11 @@ $(function() {
 
 	window.getLatest = function(){ 
 
-		 $.get(CONFIG.base_url + 'api/latest', function(data){
-		 	var data = JSON.parse(data);
+		_getLatest().success(function(data){
 
-        	if(Object.keys(data).length) {
+			var data = JSON.parse(data);
+
+			if(Object.keys(data).length) {
 
         		$.each(data, function(k,v){
         			$('#left-content .tse-content').append(_template(v));
@@ -44,8 +45,7 @@ $(function() {
                  $('#left-content').html('<h2 class="text-center">'+CONFIG.empty_record+'</h2>');
             }
 
-    	});
-
+		});
 
 	}
 
