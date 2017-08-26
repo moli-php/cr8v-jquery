@@ -78,7 +78,7 @@ $(function() {
 
 									_getLatest().success(function(data){
 										var data = JSON.parse(data);
-										if(Object.keys(data).length == 3) {alert()
+										if(Object.keys(data).length == 3) {
 											$(_template(data[2])).appendTo('#left-content .tse-content')
 										}
 									})
