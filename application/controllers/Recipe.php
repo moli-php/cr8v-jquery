@@ -135,7 +135,7 @@ class Recipe extends CI_Controller {
 			$child = scandir($path ."/".$v);
 			foreach($child as $val) {
 				
-				if($val != '.' && $val != '..') {
+				if($val != '.' && $val != '..' && $val != '.keep') {
 					$counter++;
 				}
 			}

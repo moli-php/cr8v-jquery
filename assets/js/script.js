@@ -74,8 +74,8 @@ $(function() {
 									$('#left-content').html('<h2 class="text-center">'+CONFIG.empty_record+'</h2>')
 								}
 
-								if(page === 'Home') {
-
+								if(page === 'Home' && count_recipies > 1) {
+									// append the third latest record if available
 									_getLatest().success(function(data){
 										var data = JSON.parse(data);
 										if(Object.keys(data).length == 3) {
